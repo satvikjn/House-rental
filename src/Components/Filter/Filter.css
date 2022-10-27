@@ -1,0 +1,49 @@
+.filter-main{
+    display: flex;
+    background-color: WHITE;
+    border-radius: 8px;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.filter-comp{
+    margin: 20px 40px 20px 20px;
+}
+
+.filter-comp h3{
+    font-size: 14px;
+    color: #A7A6AC;
+    margin: 2px 0 2px 0;
+}
+
+.filter-comp input{
+    border: none;
+}
+
+::placeholder{
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+input{
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+select{
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.search-btn{
+    border: none;
+    background-color: #6F65F5;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: large;
+}

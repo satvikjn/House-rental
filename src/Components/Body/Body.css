@@ -1,0 +1,37 @@
+.body-main{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F7FD;
+    border-top: 4px;
+    border-width: 2px 0 0 0;
+    border-color: rgba(128, 128, 128, 0.275);
+    height: 100%;
+    align-items: center;
+    padding: 0 0 30px 0;
+}
+
+.head{
+    padding: 30px 0 10px 0 ;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box{
+    color: #A7A5B3;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border-color: grey;
+}
+
+.cards-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+}
